@@ -1,0 +1,146 @@
+@charset "utf-8";
+.clearfix:after{
+			clear: both;
+			content: "";
+			display: block;
+		}
+header{
+	background-color: #F0F0F0;
+	margin: 0 auto 20px;
+	padding: 20px 0;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+}
+h1{
+	font-size: 22px;
+	color: #262626;
+}
+p{
+	margin: 0;
+	color: #262626;
+}
+a{
+	color: #EFEFEF;
+}
+a:hover{
+	color: #92D4E8;
+} 
+header a{
+	background-color: #144256;
+	padding: 10px 20px;
+	border-radius: 20px;
+}
+.sankou{
+	margin-top: 20px;
+}
+.sankou p{
+	font-size: 15px;
+	color: #054C7F;
+}
+.scroll{
+	font-size: 22px;
+	margin: 20px 0;
+	font-weight: 500;
+}
+.cyui{
+	font-size: 15px;
+}
+.cyui a{
+	background-color: rgba(0,0,0,0);
+	color: #0E3D9C;
+	padding: 0;
+}
+footer{
+position: fixed; /* 要素の位置を固定する */
+bottom: 30px; /* 基準の位置を画面の一番下に指定する */
+width: 300px; /* 幅を指定する */
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: #144256;
+text-align: center;
+border-radius: 20px;
+padding: 10px 0px;
+}
+.topback{
+	padding: 20px;
+	text-align: center;
+}
+.topback a{
+	color: #16546B;
+}
+#scpr {
+	margin: 0;
+/*	background-image: url("images/backimg.png");
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	background-color: #D4D8E0;
+}
+#scpr ul {
+	list-style: none;
+	max-width: 1000px;
+	margin: 0 auto 210px;
+	padding: 0;
+}
+#scpr li {
+	height: 500px;
+	margin: 0 0 8px;
+}
+#scpr li div {
+	width: 100%;
+	height: 100%;
+	background: #F0F0F0 center / 500px no-repeat ;
+	border-radius: 5px;
+}
+@media screen and (max-width: 767px) {
+	#scpr li div { background-size: 500px; }
+	header{
+		width: 100%;
+	}
+	header img{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 567px) {
+	#scpr li div { background-size: 500px; }
+	header{
+		width: 100%;
+	}
+	header img{
+		width: 100%;
+	}
+}
+#scpr:not(.unsupported) li div {
+	background-attachment: fixed;
+}
+#scpr.unsupported li div {
+	position: fixed;
+	top: 0;
+	left: 0;
+	will-change: clip-path;
+}
+#scpr .f01 div { background-image: url("images/01 (1).png");
+height: 0px;
+}
+#scpr .f02 div { background-image: url("images/01 (2).png"); }
+#scpr .f03 div { background-image: url("images/01 (3).png"); }
+#scpr .f04 div { background-image: url("images/01 (4).png"); }
+#scpr .f05 div { background-image: url("images/01 (5).png"); }
+#scpr .f06 div { background-image: url("images/01 (6).png"); }
+#scpr .f07 div { background-image: url("images/01 (7).png"); }
+#scpr .f08 div { background-image: url("images/01 (8).png"); }
+#scpr .f09 div { background-image: url("images/01 (9).png"); }
+#scpr .f10 div { background-image: url("images/01 (10).png"); }
+#scpr .f11 div { background-image: url("images/01 (11).png"); }
+#scpr .f12 div { background-image: url("images/01 (12).png"); }
+#scpr .f13 div { background-image: url("images/01 (13).png"); }
+#scpr .f14 div { background-image: url("images/01 (14).png"); }
+#scpr .f15 div { background-image: url("images/01 (15).png"); }
+#scpr .f16 div { background-image: url("images/01 (16).png"); }
+#scpr .f17 div { background-image: url("images/01 (17).png"); }
+#scpr .f18 div { background-image: url("images/01 (18).png"); }
+#scpr .f19 div { background-image: url("images/01 (19).png"); }
+#scpr .f20 div { background-image: url("images/01 (20).png"); }
+#scpr .f21 div { background-image: url("images/01 (21).png"); }
